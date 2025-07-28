@@ -24,3 +24,22 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+:where(.css-dev-only-do-not-override-7t2xvq).ant-btn-color-default {
+    color: white;
+    box-shadow: 0 2px 0 rgba(0, 0, 0, 0.02);
+}
+
+
+:where(.css-dev-only-do-not-override-7t2xvq).ant-layout-header {
+    height: 64px;
+    padding: 0 50px;
+    color: rgba(0, 0, 0, 0.88);
+    line-height: 64px;
+    background: #3AA66A;
+}
+
+:where(.css-dev-only-do-not-override-7t2xvq).ant-menu-dark.ant-menu-horizontal, :where(.css-dev-only-do-not-override-7t2xvq).ant-menu-dark>.ant-menu.ant-menu-horizontal {
+    border-bottom: 0;
+    background: #3AA66A;
+    color: white;
+}
