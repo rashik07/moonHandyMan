@@ -9,8 +9,10 @@ const FooterLayout = () => {
           <div>
             <h2 className="text-lg font-semibold mb-3">ABOUT US</h2>
             <p className="text-sm leading-relaxed">
-              At Secure Home Health Care, Inc., we are dedicated to the highest
-              Quality Elderly Care values of the Home Health Care Profession.
+              moon handyman is a professional handyman service dedicated to
+              providing high-quality home repair and maintenance solutions. Our
+              team of skilled professionals is committed to delivering
+              exceptional service with a focus on customer satisfaction.
             </p>
             <img
               src="/logo_handyman.jpg"
