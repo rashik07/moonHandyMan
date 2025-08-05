@@ -4,7 +4,7 @@ const Services = () => {
   return (
     <div>
       {/* Services Section */}
-      <section className="py-20 bg-white px-6 text-center">
+      <section className="py-20 bg-white px-6 text-center" id="services">
         <h2 className="text-3xl font-bold text-black mb-12">
           Our Services
         </h2>

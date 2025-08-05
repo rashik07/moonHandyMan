@@ -55,3 +55,8 @@ body {
     color: rgba(255, 255, 255, 0.65);
     background: #3AA66A;
 }
+
+
+html {
+  scroll-behavior: smooth;
+}

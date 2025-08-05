@@ -11,13 +11,38 @@ const HeaderLayout = () => {
   const screens = useBreakpoint();
 
   const menuItems = [
-   
-    { key: "services", label: "Services" },
-    { key: "contactUs", label: "Contact Us" },
-    { key: "aboutUs", label: "About Us" },
-   
-    { key: "careers", label: "Careers" },
-
+    {
+      key: "services",
+      label: "Services",
+      onClick: () =>
+        document
+          .getElementById("services")
+          ?.scrollIntoView({ behavior: "smooth" }),
+    },
+    {
+      key: "contactUs",
+      label: "Contact Us",
+      onClick: () =>
+        document
+          .getElementById("contactUs")
+          ?.scrollIntoView({ behavior: "smooth" }),
+    },
+    {
+      key: "aboutUs",
+      label: "About Us",
+      onClick: () =>
+        document
+          .getElementById("aboutUs")
+          ?.scrollIntoView({ behavior: "smooth" }),
+    },
+    {
+      key: "careers",
+      label: "Careers",
+      onClick: () =>
+        document
+          .getElementById("careers")
+          ?.scrollIntoView({ behavior: "smooth" }),
+    },
   ];
 
   return (

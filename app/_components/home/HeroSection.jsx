@@ -1,3 +1,4 @@
+"use client";
 import React from "react";
 
 const HeroSection = () => {
@@ -17,7 +18,15 @@ const HeroSection = () => {
             Join a trusted brand offering high-margin, reputable handyman
             services.
           </p>
-          <button className="bg-yellow-300 hover:bg-yellow-400 text-black font-semibold py-3 px-8 rounded-full shadow-lg transition-all duration-300">
+
+          <button
+            onClick={() => {
+              document
+                .getElementById("contactUs")
+                ?.scrollIntoView({ behavior: "smooth" });
+            }}
+            className="bg-yellow-300 hover:bg-yellow-400 text-black font-semibold py-3 px-8 rounded-full shadow-lg transition-all duration-300"
+          >
             Get Started
           </button>
         </div>
