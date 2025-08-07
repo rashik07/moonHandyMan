@@ -106,20 +106,18 @@ const FooterLayout = () => {
             <h2 className="text-lg font-semibold mb-3">CONTACT US</h2>
             <ul className="text-sm space-y-2">
               <li className="flex items-start gap-2">
-                <span>&#x1F4CD;</span> 891 Hyde Park Avenue Boston, MA 02136
+                <span>&#x1F4CD;</span> 1180 Lovejoy St, Buffalo-14206
               </li>
               <li className="flex items-start gap-2">
-                <span>&#x2709;&#xFE0F;</span> info@securehhc.com
+                <span>&#x2709;&#xFE0F;</span> moonboutique125@yahoo.com
               </li>
               <li className="flex items-start gap-2">
-                <span>&#x260E;&#xFE0F;</span> 617-524-5005
+                <span>&#x260E;&#xFE0F;</span> (716) 259-4849  
               </li>
               <li className="flex items-start gap-2">
-                <span>&#x1F4DE;</span> 617-524-5110
+                <span>&#x1F4DE;</span> (716) 349-9602
               </li>
-              <li className="flex items-start gap-2">
-                <span>&#x1F4DE;</span> 617-361-5115
-              </li>
+            
             </ul>
           </div>
         </div>
