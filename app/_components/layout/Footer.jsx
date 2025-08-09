@@ -109,7 +109,7 @@ const FooterLayout = () => {
                 <span>&#x1F4CD;</span> 1180 Lovejoy St, Buffalo-14206
               </li>
               <li className="flex items-start gap-2">
-                <span>&#x2709;&#xFE0F;</span> moonboutique125@yahoo.com
+                <span>&#x2709;&#xFE0F;</span> moonhandyman716@gmail.com
               </li>
               <li className="flex items-start gap-2">
                 <span>&#x260E;&#xFE0F;</span> (716) 259-4849  
